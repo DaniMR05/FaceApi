@@ -17,7 +17,7 @@ app.add_middleware(
 )
 
 # Carga el modelo (Render lo cargará desde esta ruta)
-model = load_model('reconocimiento-rostro/1')
+model = load_model('reconocimiento-rostro/modelo_entrenado.h5')
 
 # ⚠️ Orden ALFABÉTICO, igual que el LabelEncoder
 listaPersonas = ['Daniel', 'Erick', 'Josue', 'Luis', 'William']
